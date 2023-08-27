@@ -1,0 +1,90 @@
+:root {
+  --primary-colour: #2f5061;
+  --secondary-colour: #e57f84;
+  --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--primary-colour);
+  font-size: 60px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--secondary-colour);
+  padding: 100px 0 0 0;
+  font-size: 40px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  color: var(--secondary-colour);
+  margin: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 60px;
+}
+
+.contactMe {
+  color: var(--secondary-colour);
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 7px;
+  background-color: var(--primary-colour);
+  box-shadow: var(--box-shadow);
+  border: 0px;
+}
+
+.aboutMe {
+  color: var(--primary-colour);
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 7px;
+  background-color: var(--secondary-colour);
+  box-shadow: var(--box-shadow);
+  border: 0px;
+}
+.aboutMeLink {
+  color: var(--primary-colour);
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contactMeLink {
+  color: var(--secondary-colour);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: white;
+}
