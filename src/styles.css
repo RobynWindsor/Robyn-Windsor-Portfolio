@@ -1,12 +1,11 @@
 :root {
   --primary-colour: #2f5061;
-  --secondary-colour: #e57f84;
+  --secondary-colour: #f8d210;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 body {
-  background-image: url("https://www.pexels.com/photo/bike-chain-number-one-1061142/");
-  background-size: cover;
+  background-color: #4b8378;
 }
 
 h1 {

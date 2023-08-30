@@ -1,8 +1,12 @@
 :root {
   --primary-colour: #2f5061;
-  --secondary-colour: #e57f84;
+  --secondary-colour: #f8d210;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: #ff7b41=;
 }
 h1 {
   display: flex;
