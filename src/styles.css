@@ -4,6 +4,7 @@
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
 body {
   background-color: #4b8378;
 }
@@ -45,9 +46,7 @@ h3 {
 .buttons {
   display: flex;
   justify-content: center;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 60px;
+  margin: 80px;
 }
 
 .contactMe {
@@ -90,4 +89,8 @@ h3 {
 
 a:hover {
   color: white;
+}
+
+.work {
+  color: var(--secondary-colour);
 }
