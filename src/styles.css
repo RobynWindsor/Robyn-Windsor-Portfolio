@@ -1,64 +1,53 @@
 :root {
-  --primary-colour: #66bfbf;
-  --secondary-colour: #eaf6f6;
-  --third-colour: #fcfefe;
-  --fourth-colour: #f76b8a;
+  --primary-colour: #303841;
+  --secondary-colour: #3a4750;
+  --third-colour: #ea9215;
+  --fourth-colour: #eeeeee;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 body {
-  background-color: #4b8378;
+  background-color: var(--primary-colour);
 }
 
 h1 {
   display: flex;
   justify-content: center;
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: var(--primary-colour);
-  font-size: 60px;
-  padding-top: 200px;
+  font-size: 70px;
+  padding-top: 150px;
   padding-bottom: 20px;
-}
-
-h2 {
-  display: flex;
-  justify-content: center;
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
-  color: var(--secondary-colour);
-  padding: 100px 0 0 0;
-  font-size: 40px;
 }
 
 h3 {
   display: flex;
   justify-content: center;
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
-  color: var(--secondary-colour);
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  color: var(--fourth-colour);
   margin: 5px;
+  padding-top: 20px;
+  font-size: 25px;
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
   margin: 80px;
 }
 
+.container {
+  background-color: var(--third-colour);
+  margin: 90px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  border: 5px;
+}
+
 .contactMe {
-  color: var(--secondary-colour);
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 20px;
   padding: 20px;
   border-radius: 7px;
@@ -68,11 +57,8 @@ h3 {
 }
 
 .aboutMe {
-  color: var(--primary-colour);
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 20px;
   padding: 30px;
   border-radius: 7px;
@@ -82,7 +68,6 @@ h3 {
 }
 
 .projects {
-  color: var(--secondary-colour);
   font-family: "Golos Text", sans-serif;
   font-family: "Handjet", cursive;
   font-family: "Lato", sans-serif;
@@ -95,26 +80,22 @@ h3 {
   border: 0px;
 }
 .aboutMeLink {
-  color: var(--primary-colour);
+  color: var(--third-colour);
   text-decoration: none;
   transition: 0.3s;
 }
 .contactMeLink {
-  color: var(--secondary-colour);
+  color: var(--third-colour);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .projectsLink {
-  color: var(--secondary-colour);
+  color: var(--third-colour);
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
-  color: white;
-}
-
-.work {
-  color: var(--secondary-colour);
+  color: var(--fourth-colour);
 }
