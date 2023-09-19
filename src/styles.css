@@ -37,12 +37,8 @@ h3 {
   margin: 80px;
 }
 
-.container {
+.header {
   background-color: var(--third-colour);
-  margin: 90px;
-  padding-bottom: 40px;
-  border-radius: 10px;
-  border: 5px;
 }
 
 .contactMe {
