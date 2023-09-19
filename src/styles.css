@@ -1,6 +1,8 @@
 :root {
-  --primary-colour: #2f5061;
-  --secondary-colour: #f8d210;
+  --primary-colour: #66bfbf;
+  --secondary-colour: #eaf6f6;
+  --third-colour: #fcfefe;
+  --fourth-colour: #f76b8a;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -18,6 +20,8 @@ h1 {
   font-family: "Noto Sans JP", sans-serif;
   color: var(--primary-colour);
   font-size: 60px;
+  padding-top: 200px;
+  padding-bottom: 20px;
 }
 
 h2 {
@@ -76,12 +80,32 @@ h3 {
   box-shadow: var(--box-shadow);
   border: 0px;
 }
+
+.projects {
+  color: var(--secondary-colour);
+  font-family: "Golos Text", sans-serif;
+  font-family: "Handjet", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+  margin: 20px;
+  padding: 35px;
+  border-radius: 7px;
+  background-color: var(--primary-colour);
+  box-shadow: var(--box-shadow);
+  border: 0px;
+}
 .aboutMeLink {
   color: var(--primary-colour);
   text-decoration: none;
   transition: 0.3s;
 }
 .contactMeLink {
+  color: var(--secondary-colour);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.projectsLink {
   color: var(--secondary-colour);
   text-decoration: none;
   transition: 0.3s;
