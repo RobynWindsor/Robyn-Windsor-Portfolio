@@ -14,24 +14,27 @@ body {
 .firstName {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
-  font-weight: 100;
+  font-weight: 400;
   font-size: 200px;
-  padding-top: 50px;
+  padding-top: 200px;
 }
 
 .secondName {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
-  font-weight: 100;
+  font-weight: 400;
   font-size: 250px;
   color: var(--fourth-colour);
 }
 
 h3 {
-  color: var(--primary-colour);
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--secondary-colour);
   margin: 5px;
-  padding-top: 20px;
-  font-size: 25px;
+  font-weight: 50;
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
 }
 
 ul {
@@ -57,6 +60,7 @@ li a {
 
 a:hover {
   color: var(--fourth-colour);
+  text-decoration: underline;
 }
 
 .windsor {
