@@ -38,12 +38,21 @@ h1 {
   text-decoration: wavy;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: var(--secondary-colour);
+  margin: 5px 5px 5px 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 h3 {
   font-family: "Montserrat", sans-serif;
   color: var(--secondary-colour);
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
+  font-size: 25px;
 }
 
 ul {
@@ -73,6 +82,15 @@ a:hover {
   transition: ease-in;
 }
 
-a:active {
-  color: var(--fourth-colour);
+ul a:active {
+  color: #e8630a;
+}
+
+.myContacts {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--secondary-colour);
+  margin: 5px 5px 5px 5px;
+  padding-bottom: 30px;
+  font-size: 16px;
 }
