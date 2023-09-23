@@ -1,8 +1,8 @@
 :root {
-  --primary-colour: #303841;
-  --secondary-colour: #3a4750;
-  --third-colour: #ea9215;
-  --fourth-colour: #eeeeee;
+  --primary-colour: #1f4969;
+  --secondary-colour: #6ff892;
+  --third-colour: #352f44;
+  --fourth-colour: #e8630a;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -12,86 +12,46 @@ body {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  color: var(--primary-colour);
-  font-size: 70px;
-  padding-top: 150px;
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--secondary-colour);
+  font-weight: 100;
+  font-size: 100px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
 h3 {
-  display: flex;
-  justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  color: var(--fourth-colour);
+  color: var(--primary-colour);
   margin: 5px;
   padding-top: 20px;
   font-size: 25px;
 }
 
-.buttons {
-  margin: 80px;
-}
-
-.header {
-  background-color: var(--third-colour);
-}
-
-.contactMe {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 7px;
-  background-color: var(--primary-colour);
-  box-shadow: var(--box-shadow);
-  border: 0px;
-}
-
-.aboutMe {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Quicksand", sans-serif;
-  margin: 20px;
-  padding: 30px;
-  border-radius: 7px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
   background-color: var(--secondary-colour);
-  box-shadow: var(--box-shadow);
-  border: 0px;
 }
 
-.projects {
-  font-family: "Golos Text", sans-serif;
-  font-family: "Handjet", cursive;
-  font-family: "Lato", sans-serif;
-  font-family: "Noto Sans JP", sans-serif;
-  margin: 20px;
-  padding: 35px;
-  border-radius: 7px;
-  background-color: var(--primary-colour);
-  box-shadow: var(--box-shadow);
-  border: 0px;
+li {
+  float: right;
 }
-.aboutMeLink {
-  color: var(--third-colour);
-  text-decoration: none;
-  transition: 0.3s;
-}
-.contactMeLink {
-  color: var(--third-colour);
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.projectsLink {
-  color: var(--third-colour);
+li a {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  color: var(--fourth-colour);
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
+  color: var(--fourth-colour);
+}
+
+.windsor {
   color: var(--fourth-colour);
 }
