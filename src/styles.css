@@ -60,9 +60,4 @@ li a {
 
 a:hover {
   color: var(--fourth-colour);
-  text-decoration: underline;
-}
-
-.windsor {
-  color: var(--fourth-colour);
 }
