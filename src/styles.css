@@ -45,6 +45,7 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 27.8px;
+  text-shadow: var(--text-shadow);
 }
 
 ul {
@@ -69,5 +70,11 @@ li a {
 }
 
 a:hover {
+  color: var(--fourth-colour);
+  background-color: var(--third-colour);
+  transition: ease-in;
+}
+
+a:active {
   color: var(--fourth-colour);
 }
