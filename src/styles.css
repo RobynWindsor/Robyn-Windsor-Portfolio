@@ -55,12 +55,19 @@ h3 {
   font-size: 23px;
 }
 
-ul {
+ul.links {
   list-style-type: none;
   margin: 0;
   padding: 10px;
   overflow: hidden;
   background-color: #6ff892;
+}
+
+ul.contactList {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
 }
 
 li {
@@ -94,13 +101,18 @@ ul a:active {
   padding-bottom: 30px;
   text-align: center;
   font-weight: 400;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .aboutMe {
+  font-family: "Montserrat", sans-serif;
+  color: var(--secondary-colour);
+  margin: 5px 5px 5px 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 12px;
 }
 .london {
   text-align: center;
@@ -109,4 +121,9 @@ ul a:active {
 
 .icon {
   color: var(--fourth-colour);
+}
+
+.highlight {
+  color: var(--fourth-colour);
+  font-weight: bold;
 }
