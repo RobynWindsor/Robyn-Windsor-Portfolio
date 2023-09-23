@@ -15,7 +15,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 200px;
+  font-size: 350px;
   padding-top: 200px;
 }
 
@@ -23,7 +23,7 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 250px;
+  font-size: 350px;
   color: var(--fourth-colour);
 }
 
