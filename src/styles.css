@@ -153,3 +153,12 @@ a.iG {
 .contact {
   text-align: center;
 }
+
+.weatherApp {
+  text-align: center;
+}
+.react {
+  border-radius: 12px;
+  max-width: 800px;
+  padding-top: 60px;
+}
