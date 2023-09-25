@@ -11,22 +11,6 @@ body {
   background-color: var(--primary-colour);
 }
 
-.firstName {
-  font-family: "Bebas Neue", sans-serif;
-  color: var(--secondary-colour);
-  font-weight: 400;
-  font-size: 350px;
-  padding-top: 200px;
-}
-
-.secondName {
-  font-family: "Bebas Neue", sans-serif;
-  color: var(--secondary-colour);
-  font-weight: 400;
-  font-size: 350px;
-  color: var(--fourth-colour);
-}
-
 h1 {
   font-family: "Bebas Neue", sans-serif;
   color: var(--fourth-colour);
@@ -61,19 +45,11 @@ ul.links {
   padding: 10px;
   overflow: hidden;
   background-color: #6ff892;
+  border-radius: 5px;
 }
 
-ul.contactList {
-  list-style-type: none;
-  margin: 0;
-  padding: 10px;
-  overflow: hidden;
-}
-
-li {
-  float: right;
-}
 li a {
+  float: right;
   font-family: "Bebas Neue", sans-serif;
   font-size: 50px;
   color: var(--third-colour);
@@ -87,12 +63,24 @@ a:hover {
   color: var(--fourth-colour);
   background-color: var(--third-colour);
   transition: ease-in;
+  border-radius: 5px;
 }
 
-ul a:active {
-  color: #e8630a;
+.firstName {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--secondary-colour);
+  font-weight: 400;
+  font-size: 350px;
+  padding-top: 200px;
 }
 
+.secondName {
+  font-family: "Bebas Neue", sans-serif;
+  color: var(--secondary-colour);
+  font-weight: 400;
+  font-size: 350px;
+  color: var(--fourth-colour);
+}
 .myContacts {
   font-family: "Montserrat", sans-serif;
   color: var(--secondary-colour);
@@ -114,10 +102,6 @@ ul a:active {
   font-weight: 400;
   font-size: 12px;
 }
-.london {
-  text-align: center;
-  font-size: 20px;
-}
 
 .icon {
   color: var(--fourth-colour);
@@ -126,4 +110,40 @@ ul a:active {
 .highlight {
   color: var(--fourth-colour);
   font-weight: bold;
+}
+
+.emaiLink {
+  color: var(--fourth-colour);
+}
+.aboutMeLink {
+  color: var(--fourth-colour);
+  background-color: var(--third-colour);
+  border-radius: 5px;
+}
+.projectsLink {
+  color: var(--fourth-colour);
+  background-color: var(--third-colour);
+  border-radius: 5px;
+}
+.contactMeLink {
+  color: var(--fourth-colour);
+  background-color: var(--third-colour);
+  border-radius: 5px;
+}
+
+.contactInfo {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: var(--fourth-colour);
+}
+a.ld {
+  color: var(--fourth-colour);
+}
+
+a.iG {
+  color: var(--fourth-colour);
+}
+.contact {
+  text-align: center;
 }
