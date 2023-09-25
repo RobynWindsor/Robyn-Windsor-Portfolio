@@ -141,6 +141,7 @@ a:hover {
   font-weight: bold;
   color: var(--fourth-colour);
   font-size: 30;
+  padding: 10px;
 }
 a.ld {
   color: var(--fourth-colour);
