@@ -59,6 +59,10 @@ li a {
   transition: 0.3s;
 }
 
+i {
+  font-size: 60px;
+}
+
 a:hover {
   color: var(--fourth-colour);
   background-color: var(--third-colour);
@@ -136,6 +140,7 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: var(--fourth-colour);
+  font-size: 30;
 }
 a.ld {
   color: var(--fourth-colour);
