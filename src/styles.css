@@ -1,7 +1,7 @@
 :root {
-  --primary-colour: #1f4969;
+  --primary-colour: #132743;
   --secondary-colour: #6ff892;
-  --third-colour: #352f44;
+  --third-colour: #132743;
   --fourth-colour: #e8630a;
   --box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   --text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  color: var(--secondary-colour);
+  color: white;
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -34,13 +34,11 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
   margin: 5px 5px 5px 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+
   font-size: 23px;
   font-weight: bold;
   text-align: center;
-  border: solid 4px;
-  border-radius: 10px;
 }
 
 ul.links {
@@ -66,13 +64,13 @@ li a {
 i {
   font-size: 55px;
   padding: 5px;
+  padding-bottom: 40px;
 }
 
 p {
-  background-color: #407088;
-  border-radius: 10px;
   margin: 20px;
-  padding: 12px;
+  padding: 9px;
+  color: #dde4ef;
 }
 section {
   font-family: "Montserrat", sans-serif;
@@ -88,6 +86,9 @@ a:hover {
   background-color: var(--third-colour);
   transition: ease-in;
   border-radius: 5px;
+}
+a:active{
+  
 }
 
 .firstName {
@@ -159,7 +160,7 @@ a:hover {
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: var(--fourth-colour);
+  color: white;
   font-size: 30;
   padding: 10px;
 }
