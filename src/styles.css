@@ -37,6 +37,7 @@ h3 {
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 23px;
+  font-weight: bold;
 }
 
 ul.links {
@@ -63,6 +64,20 @@ i {
   font-size: 60px;
 }
 
+p {
+  background-color: #407088;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 12px;
+}
+section {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin: 5px 5px 5px 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 12px;
+}
 a:hover {
   color: var(--fourth-colour);
   background-color: var(--third-colour);
