@@ -19,7 +19,7 @@ h1 {
   padding-top: 80px;
   font-size: 100px;
   text-align: center;
-  text-decoration: wavy;
+  text-decoration: underline;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h2 {
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: var(--secondary-colour);
+  color: white;
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -113,7 +113,7 @@ a:hover {
 
 .aboutMe {
   font-family: "Montserrat", sans-serif;
-  color: var(--secondary-colour);
+  color: white;
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
