@@ -28,6 +28,7 @@ h2 {
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
 }
 
 h3 {
@@ -35,7 +36,6 @@ h3 {
   color: white;
   margin: 5px 5px 5px 5px;
   padding-top: 10px;
-
   font-size: 23px;
   font-weight: bold;
   text-align: center;
@@ -87,9 +87,6 @@ a:hover {
   transition: ease-in;
   border-radius: 5px;
 }
-a:active{
-  
-}
 
 .firstName {
   font-family: "Bebas Neue", sans-serif;
@@ -97,14 +94,17 @@ a:active{
   font-weight: 400;
   font-size: 350px;
   padding-top: 200px;
+  padding-left: 10px;
 }
 
 .secondName {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 350px;
+  font-size: 340px;
   color: var(--fourth-colour);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .myContacts {
   font-family: "Montserrat", sans-serif;
@@ -178,11 +178,14 @@ a.git {
   text-align: center;
 }
 
-.weatherApp {
-  text-align: center;
-}
 .react {
   border-radius: 12px;
   max-width: 800px;
   padding-top: 60px;
+}
+
+.me {
+  width: 400px;
+
+  border-radius: 20px;
 }
