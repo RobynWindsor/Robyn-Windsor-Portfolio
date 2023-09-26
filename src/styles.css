@@ -34,10 +34,13 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
   margin: 5px 5px 5px 5px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
+  border: solid 4px;
+  border-radius: 10px;
 }
 
 ul.links {
@@ -61,7 +64,8 @@ li a {
 }
 
 i {
-  font-size: 60px;
+  font-size: 55px;
+  padding: 5px;
 }
 
 p {
@@ -76,7 +80,8 @@ section {
   margin: 5px 5px 5px 5px;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 12px;
+  font-size: 14px;
+  text-align: center;
 }
 a:hover {
   color: var(--fourth-colour);
@@ -127,7 +132,7 @@ a:hover {
 }
 
 .highlight {
-  color: var(--fourth-colour);
+  color: var(--secondary-colour);
   font-weight: bold;
 }
 
@@ -159,11 +164,14 @@ a:hover {
   padding: 10px;
 }
 a.ld {
-  color: var(--fourth-colour);
+  color: white;
 }
 
 a.iG {
-  color: var(--fourth-colour);
+  color: white;
+}
+a.git {
+  color: white;
 }
 .contact {
   text-align: center;
