@@ -45,7 +45,6 @@ ul.links {
   overflow: hidden;
   background-color: #6ff892;
   border-radius: 5px;
-  font-size: ;
 }
 
 li a {
@@ -95,7 +94,7 @@ a:hover {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 100px;
+  font-size: 110px;
   color: var(--fourth-colour);
   padding-left: 10px;
   padding-right: 10px;
@@ -153,4 +152,9 @@ a.git {
 
 .img-fluid {
   max-width: 100%;
+}
+
+.homeContact {
+  text-align: center;
+  
 }
