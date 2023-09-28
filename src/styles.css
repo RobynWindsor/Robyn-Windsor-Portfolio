@@ -158,3 +158,17 @@ a.git {
   text-align: center;
 }
 
+.weatherAppTools {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+
+.projectsIcons {
+  font-size: 20px;
+}
+
+i.launch {
+  font-size: 15px;
+}
