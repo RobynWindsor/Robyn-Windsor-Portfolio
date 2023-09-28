@@ -28,6 +28,8 @@ h3 {
   color: white;
   text-align: center;
   font-size: 20px;
+  margin: 0;
+  padding-top: 10px;
 }
 
 h2 {
@@ -96,7 +98,7 @@ a:hover {
   font-weight: 400;
   font-size: 110px;
   color: var(--fourth-colour);
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 10px;
 }
 
@@ -163,20 +165,13 @@ a.git {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 70%;
 }
 
 .homeContact {
   text-align: center;
 }
 
-.weatherAppTools {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 2px;
-}
-
 .projectsIcons {
-  font-size: 20px;
+  font-size: 10px;
 }
