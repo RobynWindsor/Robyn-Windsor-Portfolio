@@ -104,6 +104,18 @@ a:hover {
   color: var(--fourth-colour);
   font-size: 20px;
 }
+i.fire {
+  color: var(--fourth-colour);
+}
+
+i.art {
+  color: #f8b400;
+}
+
+i.launch {
+  font-size: 15px;
+  color: #f8b400;
+}
 
 .highlight {
   color: var(--secondary-colour);
@@ -167,8 +179,4 @@ a.git {
 
 .projectsIcons {
   font-size: 20px;
-}
-
-i.launch {
-  font-size: 15px;
 }
