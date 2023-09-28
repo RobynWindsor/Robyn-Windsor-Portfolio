@@ -16,9 +16,8 @@ h1 {
   color: var(--fourth-colour);
   margin: 5px;
   font-weight: 50;
-  padding-top: 80px;
-  padding-bottom: 20px;
-  font-size: 100px;
+  padding-top: 35px;
+  font-size: 50px;
   text-align: center;
   text-decoration: underline;
 }
@@ -27,55 +26,52 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: white;
   text-align: center;
-  font-size: 45px;
+  font-size: 26px;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   color: white;
-  margin: 5px 5px 5px 5px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
   padding-left: 10px;
+  font-size: 20px;
 }
 
 ul.links {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   overflow: hidden;
   background-color: #6ff892;
   border-radius: 5px;
+  font-size: ;
 }
 
 li a {
   float: right;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
+  font-size: 15px;
   color: var(--third-colour);
-  text-align: center;
-  padding: 14px 16px;
+  padding: 5px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 i {
-  font-size: 55px;
+  font-size: 27px;
   padding: 5px;
-  padding-bottom: 40px;
+  padding-top: 15px;
   color: white;
 }
 
 p {
-  margin: 20px;
-  padding: 9px;
   color: #dde4ef;
 }
 section {
   font-family: "Montserrat", sans-serif;
   color: white;
-  margin: 5px 5px 5px 5px;
-  padding-bottom: 30px;
+
   font-size: 14px;
   text-align: center;
 }
@@ -90,8 +86,8 @@ a:hover {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 350px;
-  padding-top: 200px;
+  font-size: 130px;
+  padding-top: 50px;
   padding-left: 10px;
 }
 
@@ -99,7 +95,7 @@ a:hover {
   font-family: "Bebas Neue", sans-serif;
   color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 340px;
+  font-size: 100px;
   color: var(--fourth-colour);
   padding-left: 10px;
   padding-right: 10px;
@@ -107,6 +103,7 @@ a:hover {
 
 .icon {
   color: var(--fourth-colour);
+  font-size: 20px;
 }
 
 .highlight {
@@ -138,8 +135,7 @@ a:hover {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   color: white;
-  font-size: 25px;
-  padding: 10px;
+  font-size: 20px;
 }
 a.ld {
   color: white;
@@ -155,9 +151,6 @@ a.git {
   text-align: center;
 }
 
-.react {
-  border-radius: 12px;
-  max-width: 800px;
-  padding-top: 60px;
-  padding-bottom: 20px;
+.img-fluid {
+  max-width: 100%;
 }
