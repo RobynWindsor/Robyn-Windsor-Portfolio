@@ -57,7 +57,7 @@ li a {
   color: var(--third-colour);
   padding: 5px;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 i {
@@ -174,4 +174,104 @@ a.git {
 
 .projectsIcons {
   font-size: 17px;
+}
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    padding-bottom: 40px;
+    text-decoration: none;
+  }
+  .firstName {
+    text-align: center;
+    font-size: 200px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
+
+  .secondName {
+    text-align: center;
+    font-size: 200px;
+    margin: auto 0;
+    padding: 5px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+
+  .iconWorld {
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+  }
+  li a {
+    padding: 0 20px 0 20px;
+    font-size: 40px;
+  }
+  .aboutMeText {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .contactMeText {
+    font-size: 20px;
+    font-size: 25px;
+    max-width: 50%;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  .contactInfo {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 40px;
+    padding-top: 60px;
+  }
+
+  .iconLi {
+    font-size: 60px;
+  }
+
+  .london {
+    display: none;
+  }
+  .tools {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .art {
+    font-size: 35px;
+  }
+
+  .fire {
+    font-size: 35px;
+  }
+
+  i.launch {
+    font-size: 40px;
+  }
+
+  .weatherAppLink {
+    font-size: 30px;
+  }
+
+  .projectsIcons {
+    font-size: 35px;
+  }
+  i:hover {
+    color: var(--fourth-colour);
+  }
 }
