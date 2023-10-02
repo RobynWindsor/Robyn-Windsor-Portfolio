@@ -82,6 +82,9 @@ a:hover {
   transition: ease-in;
   border-radius: 5px;
 }
+i:hover {
+  color: var(--fourth-colour);
+}
 
 .firstName {
   font-family: "Bebas Neue", sans-serif;
@@ -174,6 +177,10 @@ a.git {
 
 .projectsIcons {
   font-size: 17px;
+}
+
+.iconWorld {
+  color: var(--fourth-colour);
 }
 
 @media only screen and (min-width: 600px) {
