@@ -129,17 +129,17 @@ i.launch {
 }
 .aboutMeLink {
   color: var(--fourth-colour);
-  background-color: var(--third-colour);
+  text-decoration: line-through var(--fourth-colour);
   border-radius: 5px;
 }
 .projectsLink {
   color: var(--fourth-colour);
-  background-color: var(--third-colour);
+  text-decoration: line-through var(--fourth-colour);
   border-radius: 5px;
 }
 .contactMeLink {
   color: var(--fourth-colour);
-  background-color: var(--third-colour);
+  text-decoration: line-through var(--fourth-colour);
   border-radius: 5px;
 }
 
