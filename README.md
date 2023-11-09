@@ -32,3 +32,20 @@ I'm Robyn, a creative and detail-oriented frontend developer with a love for cle
 3.  Open **`index.html`** in your preferred browser.
 
 Feel free to explore the projects, check out the code, and provide any feedback or suggestions. Your insights are highly valuable!
+
+## Contribution
+
+If you have ideas or improvements for my projects, feel free to open an issue or submit a pull request. I welcome collaboration and constructive feedback.
+
+## Contact
+
+- Email: robynlwindsor@gmail.com
+- LinkedIn: https://www.linkedin.com/in/robyn-windsor-5a9666151/
+
+Let's connect! Whether you have a project idea, job opportunity, or just want to say hi, I'm always open to new connections.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details. Feel free to use the code as a reference or for your own portfolio.
+
+Thank you for visiting! 🚀
