@@ -2,6 +2,8 @@
 
 Welcome to my frontend development portfolio! 👋 I'm thrilled to have you here. This repository showcases my passion for crafting beautiful and responsive web experiences. Whether you're a fellow developer, potential employer, or just curious, feel free to explore and get to know my work.
 
+![portfolio](https://github.com/RobynWindsor/Robyn-Windsor-Portfolio/assets/127926809/2348c7a2-6105-412a-9eed-9dcbc3b6fc40)
+
 ## Table of Contents
 
 - About Me
@@ -15,8 +17,6 @@ Welcome to my frontend development portfolio! 👋 I'm thrilled to have you here
 ## About Me
 
 I'm Robyn, a creative and detail-oriented frontend developer with a love for clean and efficient code. My journey in web development began at the start of 2023. Since then, I've been on a mission to bring ideas to life through intuitive and visually appealing user interfaces.
-
-## Projects
 
 ## Technologies
 
