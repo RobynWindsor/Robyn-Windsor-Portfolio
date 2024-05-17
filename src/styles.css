@@ -80,7 +80,7 @@ section {
   /* line-height: 80%; */
 }
 a:hover {
-  color: #6ff892;
+  color: #fdb44b;
   transition: ease-in;
   border-radius: 5px;
 }
@@ -91,9 +91,9 @@ color:#2A2C2E;
 .firstName {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  color: var(--secondary-colour);
+  color:#2c786c;
   font-weight: 400;
-  font-size: 130px;
+  font-size: 100px;
   padding-top: 50px;
   padding-left: 10px;
 }
@@ -101,10 +101,9 @@ color:#2A2C2E;
 .secondName {
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  color: var(--secondary-colour);
   font-weight: 400;
-  font-size: 110px;
-  color: var(--fourth-colour);
+  font-size: 100px;
+  color: #fdb44b;
   padding-left: 5px;
   padding-right: 10px;
 }
