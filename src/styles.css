@@ -27,7 +27,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   color: #F8F5E3;
   text-align: center;
-  font-size: 20px;
+  font-size: 13px;
   margin: 0;
   padding-top: 10px;
 }
@@ -69,7 +69,7 @@ i {
 
 p {
   color: #dde4ef;
-  font-size: 16px;;
+  font-size: 10px;;
 }
 section {
   font-family: 'Montserrat', sans-serif;
@@ -114,10 +114,12 @@ color:#2A2C2E;
 
 i.fire {
   color: var(--fourth-colour);
+  font-size: 12px;
 }
 
 i.art {
   color: #f8b400;
+  font-size: 12px;
 }
 
 i.launch {
