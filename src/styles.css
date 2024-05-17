@@ -194,7 +194,14 @@ a.git {
 
  .iconLi {
     font-size: 20px;
-  }
+}
+
+i, #plantIcon {
+display: flex;
+justify-content: center;
+color: #004445;
+font-size: 15px;
+}
 
 
 
