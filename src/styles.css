@@ -108,8 +108,19 @@ color:#2A2C2E;
   padding-right: 10px;
 }
 
+.aboutMeText{
+  padding-top: 30px ;
+}
+
+.projectsPage{
+  padding-top: 30px ;
+}
 #aboutMeIcons{
   font-size: 25px;
+}
+
+.contactMeText{
+  padding-top: 30px ;
 }
 
 
@@ -153,8 +164,8 @@ i.launch {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: white;
-  font-size: 20px;
+  color: #fdb44b;
+  font-size: 12px;
 }
 a.ld {
   color: white;
