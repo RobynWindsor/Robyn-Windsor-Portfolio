@@ -76,6 +76,7 @@ section {
   color: #F8F5E3;
   font-size: 14px;
   text-align: center;
+  letter-spacing: 1px;
 }
 a:hover {
   color: #6ff892;
