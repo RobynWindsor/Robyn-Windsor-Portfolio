@@ -138,16 +138,10 @@ i.launch {
 .emaiLink {
   color: var(--fourth-colour);
 }
-.aboutMeLink {
-  color: #2a2c2e;
-  border-radius: 5px;
-}
+.aboutMeLink,
+.projectsLink,
 .projectsLink {
-  color: #2a2c2e;
-  border-radius: 5px;
-}
-.contactMeLink {
-  color: #2a2c2e;
+  color: #898991;
   border-radius: 5px;
 }
 
