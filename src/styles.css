@@ -24,6 +24,10 @@ img {
   border
 }
 
+.projectIcon{
+  
+}
+
 h1 {
   font-family: 'Bebas Neue', sans-serif;
   color: #6ff892;
@@ -69,12 +73,12 @@ li a {
   transition: 0.5s;
 }
 
-i {
+/* i {
   font-size: 27px;
   padding: 5px;
   padding-top: 15px;
   color: F8F5E3;
-}
+} */
 
 p {
   color: #dde4ef;
@@ -128,6 +132,13 @@ i:hover {
 #aboutMeIcons {
   font-size: 15px;
   color: #2c786c;
+  padding: 5px;
+  padding-top: 18px;
+  
+}
+
+.projectIcon{
+
 }
 
 .contactMeText {
