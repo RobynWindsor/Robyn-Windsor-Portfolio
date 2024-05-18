@@ -65,7 +65,7 @@ i {
 
 p {
   color: #dde4ef;
-  font-size: 10px;
+  font-size: 14px;
 }
 section {
   font-family: 'Montserrat', sans-serif;
@@ -204,6 +204,10 @@ i,
   text-align: center;
   font-size: 15px;
   font-weight: 400;
+}
+
+.jumbotron {
+  margin-top: 60px;
 }
 
 @media only screen and (min-width: 600px) {
