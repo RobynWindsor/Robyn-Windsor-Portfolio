@@ -111,9 +111,10 @@ i:hover {
 .projectsPage {
   padding-top: 30px;
 }
+
 #aboutMeIcons {
   font-size: 15px;
-  padding-top: ;
+  color: #2c786c;
 }
 
 .contactMeText {
@@ -184,13 +185,13 @@ a.git {
 
 .iconLi {
   font-size: 20px;
+  color: #2c786c;
 }
 
-i,
 #plantIcon {
   display: flex;
   justify-content: center;
-  color: #004445;
+  color: #379956;
   font-size: 15px;
 }
 
