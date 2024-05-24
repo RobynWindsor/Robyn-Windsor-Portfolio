@@ -145,6 +145,7 @@ i:hover {
 
 #card{
   padding-bottom: 40px;
+  
 }
 
 .contactMeText {
@@ -228,10 +229,21 @@ a:hover{
 
 
 .livingData img{
-width: 200px;
+width: 100px;
 height: auto;
 
 }
+
+.card{
+  border: solid 2px #222831;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .card:hover{
+    background-color: #222831 ;
+  }
 
 
 
