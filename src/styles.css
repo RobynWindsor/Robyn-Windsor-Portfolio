@@ -281,16 +281,6 @@ a:hover {
     padding: 5px;
   }
 
-  .hero {
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
-  }
-
-  .iconWorld {
-    padding-left: 40px;
-    padding-right: 10px;
-  }
   ul {
     display: flex;
     justify-content: center;
@@ -302,10 +292,11 @@ a:hover {
   }
   .aboutMeText {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    font-size: 25px;
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
+    margin-bottom: 80px;
   }
 
   .contactMeText {
@@ -322,32 +313,18 @@ a:hover {
   }
 
   h3 {
-    font-size: 40px;
-    padding-top: 60px;
+    font-size: 25px;
+    padding-top: 30px;
   }
 
   .iconLi {
     font-size: 60px;
   }
 
-  .london {
-    display: none;
-  }
   .tools {
-    font-size: 40px;
-    padding-top: 20px;
-  }
-
-  .art {
-    font-size: 35px;
-  }
-
-  .fire {
-    font-size: 35px;
-  }
-
-  i.launch {
-    font-size: 40px;
+    font-size: 20px;
+    padding-top: 70px;
+    padding: 5px;
   }
 
   .weatherAppLink {
@@ -374,5 +351,49 @@ a:hover {
     padding-right: 10px;
     text-decoration: none;
     transition: 0.5s;
+  }
+  p {
+    color: #dde4ef;
+    font-size: 15px;
+  }
+
+  section {
+    letter-spacing: 2px;
+  }
+
+  #aboutMeIcons {
+    font-size: 30px;
+    color: #2c786c;
+    padding: 5px;
+    padding-top: 18px;
+   
+  }
+
+  #plantIcon {
+    padding-top: 20px;
+    font-size: 20px;
+  }
+
+  img {
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  /* CSS to reduce the width of the card and center it */
+  .card {
+    max-width: 700px; /* Adjust the width as needed */
+    margin: 0 auto;
+    border: solid 2px #222831;
+    padding: 10px
+    border-radius: 5px; 
+    box-shadow: none;
+  }
+
+  .card:hover {
+    background-color: #222831;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
   }
 }
