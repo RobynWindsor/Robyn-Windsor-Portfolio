@@ -24,9 +24,7 @@ img {
   border
 }
 
-.projectIcon{
-  
-}
+
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
@@ -195,6 +193,7 @@ a{
 
 a:hover{
   color:#fdb44b ;
+ 
 }
 .projectsIcons {
   font-size: 17px;
@@ -239,12 +238,36 @@ height: auto;
   padding:10px;
   border-radius: 5px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  
   }
 
   .card:hover{
     background-color: #222831 ;
+    
   }
 
+  /* Target the specific icons within the card using their unique class */
+#card .aboutMeIcons {
+  color: #f8f5e3; 
+  font-size: ;
+}
+
+
+#weather{
+  color:#94f6f2;
+}
+
+#energy{
+  color:#8bc34a;
+}
+
+#data{
+  color: #2d6e7e;
+}
+
+#adhd{
+  color:#f48db4
+}
 
 
 @media only screen and (min-width: 600px) {
