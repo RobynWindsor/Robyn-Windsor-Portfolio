@@ -75,12 +75,6 @@ li a {
   transition: 0.5s;
 }
 
-/* i {
-  font-size: 27px;
-  padding: 5px;
-  padding-top: 15px;
-  color: F8F5E3;
-} */
 
 p {
   color: #dde4ef;
@@ -143,7 +137,7 @@ i:hover {
  font-size: 13px;
 }
 
-#weather{
+/* #weather{
   color: #c7f3ff;
 
 }
@@ -156,9 +150,9 @@ color: #cabbe9;
 
 #adhd{
 color: pink;
-}
+} */
 .card-title{
-  margin-top: 5px;;
+  margin-top: 5px;
 }
 
 #card{
@@ -169,20 +163,7 @@ color: pink;
   padding-top: 30px;
 }
 
-i.fire {
-  color: var(--fourth-colour);
-  font-size: 12px;
-}
 
-i.art {
-  color: #f8b400;
-  font-size: 12px;
-}
-
-i.launch {
-  font-size: 15px;
-  color: #f8b400;
-}
 
 .emaiLink {
   color: var(--fourth-colour);
@@ -218,7 +199,14 @@ a.git {
 .homeContact {
   text-align: center;
 }
+a{
+  text-decoration: none;
+  color: #2c786c;
+}
 
+a:hover{
+  color:#fdb44b ;
+}
 .projectsIcons {
   font-size: 17px;
 }
@@ -230,6 +218,7 @@ a.git {
 .iconLi {
   font-size: 20px;
   color: #2c786c;
+  margin: 5px;
 }
 
 #plantIcon {
