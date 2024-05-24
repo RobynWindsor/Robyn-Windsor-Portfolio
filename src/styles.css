@@ -102,6 +102,7 @@ i:hover {
   font-size: 100px;
   padding-top: 50px;
   padding-left: 10px;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .secondName {
@@ -112,6 +113,7 @@ i:hover {
   color: #fdb44b;
   padding-left: 5px;
   padding-right: 10px;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .aboutMeText {
@@ -187,6 +189,7 @@ a {
 
 a:hover {
   color: #fdb44b;
+  text-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
 .projectsIcons {
   font-size: 17px;
