@@ -137,20 +137,6 @@ i:hover {
  font-size: 13px;
 }
 
-/* #weather{
-  color: #c7f3ff;
-
-}
-#energy{
-color: #379956;
-}
-#house{
-color: #cabbe9;
-} 
-
-#adhd{
-color: pink;
-} */
 .card-title{
   margin-top: 5px;
 }
@@ -236,6 +222,20 @@ a:hover{
 
 .jumbotron {
   margin-top: 60px;
+}
+
+
+.livingData img{
+width: 200px;
+height: auto;
+
+}
+.livingData{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: ;
+   
 }
 
 @media only screen and (min-width: 600px) {
