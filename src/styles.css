@@ -47,7 +47,8 @@ h3 {
   padding-top: 10px;
 }
 h5{
-  color: #fdb44b
+  color: #fdb44b;
+  font-size: 20px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
@@ -139,10 +140,11 @@ i:hover {
 
 .card-title{
   margin-top: 5px;
+  margin-bottom: 5px; 
 }
 
 #card{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .contactMeText {
@@ -230,13 +232,8 @@ width: 200px;
 height: auto;
 
 }
-.livingData{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: ;
-   
-}
+
+
 
 @media only screen and (min-width: 600px) {
   h1 {
