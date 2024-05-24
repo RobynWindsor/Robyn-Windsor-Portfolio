@@ -21,10 +21,8 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
-  border
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
 }
-
-
 
 h1 {
   font-family: 'Bebas Neue', sans-serif;
@@ -44,7 +42,7 @@ h3 {
   margin: 0;
   padding-top: 10px;
 }
-h5{
+h5 {
   color: #fdb44b;
   font-size: 20px;
 }
@@ -73,7 +71,6 @@ li a {
   text-decoration: none;
   transition: 0.5s;
 }
-
 
 p {
   color: #dde4ef;
@@ -129,28 +126,24 @@ i:hover {
   color: #2c786c;
   padding: 5px;
   padding-top: 18px;
-  
 }
 
-.projectIcon{
- font-size: 13px;
+.projectIcon {
+  font-size: 13px;
 }
 
-.card-title{
+.card-title {
   margin-top: 5px;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
-#card{
+#card {
   padding-bottom: 40px;
-  
 }
 
 .contactMeText {
   padding-top: 30px;
 }
-
-
 
 .emaiLink {
   color: var(--fourth-colour);
@@ -186,14 +179,13 @@ a.git {
 .homeContact {
   text-align: center;
 }
-a{
+a {
   text-decoration: none;
   color: #2c786c;
 }
 
-a:hover{
-  color:#fdb44b ;
- 
+a:hover {
+  color: #fdb44b;
 }
 .projectsIcons {
   font-size: 17px;
@@ -226,49 +218,43 @@ a:hover{
   margin-top: 60px;
 }
 
-
-.livingData img{
-width: 100px;
-height: auto;
-
+.livingData img {
+  width: 100px;
+  height: auto;
 }
 
-.card{
+.card {
   border: solid 2px #222831;
-  padding:10px;
+  padding: 10px;
   border-radius: 5px;
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-  
-  }
+}
 
-  .card:hover{
-    background-color: #222831 ;
-    
-  }
+.card:hover {
+  background-color: #222831;
+}
 
-  /* Target the specific icons within the card using their unique class */
+/* Target the specific icons within the card using their unique class */
 #card .aboutMeIcons {
-  color: #f8f5e3; 
+  color: #f8f5e3;
   font-size: ;
 }
 
-
-#weather{
-  color:#94f6f2;
+#weather {
+  color: #94f6f2;
 }
 
-#energy{
-  color:#8bc34a;
+#energy {
+  color: #8bc34a;
 }
 
-#data{
+#data {
   color: #2d6e7e;
 }
 
-#adhd{
-  color:#f48db4
+#adhd {
+  color: #f48db4;
 }
-
 
 @media only screen and (min-width: 600px) {
   h1 {
