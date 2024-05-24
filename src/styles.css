@@ -65,7 +65,7 @@ ul.links {
 
 li a {
   float: right;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #f8f5e3;
   padding: 5px;
@@ -260,6 +260,8 @@ a:hover {
   color: #f48db4;
 }
 
+/* ----MEDIA QUERIES FOR LARGER DEVICES */
+
 @media only screen and (min-width: 600px) {
   h1 {
     padding-bottom: 40px;
@@ -314,14 +316,6 @@ a:hover {
     padding-top: 20px;
   }
 
-  .projectsNotice {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 25px;
-    max-width: 50%;
-    margin: auto;
-    font-family: 'Montserrat', sans-serif;
-  }
   .contactInfo {
     padding-top: 20px;
     font-size: 30px;
@@ -362,5 +356,23 @@ a:hover {
 
   .projectsIcons {
     font-size: 35px;
+  }
+
+  .aboutMeLink,
+  .projectsLink,
+  .contactMeLink {
+    color: #898991;
+    border-radius: 5px;
+  }
+
+  li a {
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #f8f5e3;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: 0.5s;
   }
 }
