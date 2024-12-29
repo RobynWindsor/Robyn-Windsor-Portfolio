@@ -274,6 +274,7 @@ a:hover {
     padding-top: 30px;
     animation-name: moveInLeft;
     animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
 
   }
 
@@ -283,7 +284,8 @@ a:hover {
     margin: auto 0;
     padding: 5px;
     animation-name: moveInRight;
-    animation-duration: 1.5s;;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
   }
 
   ul {
@@ -448,4 +450,22 @@ a:hover {
 opacity: 1;
 transform: translate(0);
   }
+
+}
+
+#card-1{
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+#card-2{
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
+}
+#card-3{
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+#card-4{
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
 }
