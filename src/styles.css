@@ -241,7 +241,6 @@ a:hover {
 /* Target the specific icons within the card using their unique class */
 #card .aboutMeIcons {
   color: #f8f5e3;
-  font-size: ;
 }
 
 #weather {
@@ -274,8 +273,7 @@ a:hover {
     padding-top: 30px;
     animation-name: moveInLeft;
     animation-duration: 1s;
-    animation-timing-function:ease-out;
-
+    animation-timing-function: ease-out;
   }
 
   .secondName {
@@ -378,7 +376,6 @@ a:hover {
     color: #2c786c;
     padding: 5px;
     padding-top: 18px;
-   
   }
 
   #plantIcon {
@@ -399,8 +396,8 @@ a:hover {
     max-width: 700px; /* Adjust the width as needed */
     margin: 0 auto;
     border: solid 2px #222831;
-    padding: 10px
-    border-radius: 5px; 
+    padding: 10px;
+    border-radius: 5px;
     box-shadow: none;
   }
 
@@ -410,67 +407,61 @@ a:hover {
   }
 
   .iconLi {
-  font-size: 30px;
-  color: #2c786c;
-  margin: 5px;
+    font-size: 30px;
+    color: #2c786c;
+    margin: 5px;
+  }
+
+  .hero {
+    font-size: 40px;
+  }
 }
 
-.hero{
-  font-size: 40px;
-}
-}
-
-@keyframes moveInLeft{
+@keyframes moveInLeft {
   0% {
     opacity: 0;
     transform: translateX(-100px);
-
   }
 
   80% {
     transform: translateX(10px);
-
   }
 
   100% {
     opacity: 1;
     transform: translate(0);
-
   }
 }
 
-@keyframes moveInRight{
-  0% { 
+@keyframes moveInRight {
+  0% {
     opacity: 0;
-    transform: translateX(100px)
-
+    transform: translateX(100px);
   }
 
   80% {
-    transform: translateX(-10px)
-
+    transform: translateX(-10px);
   }
 
   100% {
-opacity: 1;
-transform: translate(0);
+    opacity: 1;
+    transform: translate(0);
   }
-
 }
 
-#card-1{
+#card-1 {
   animation-name: moveInLeft;
   animation-duration: 1.5s;
 }
-#card-2{
+#card-2 {
   animation-name: moveInRight;
   animation-duration: 1.5s;
 }
-#card-3{
+#card-3 {
   animation-name: moveInLeft;
   animation-duration: 1.5s;
 }
-#card-4{
+#card-4 {
   animation-name: moveInRight;
   animation-duration: 1.5s;
 }
