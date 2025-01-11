@@ -272,6 +272,10 @@ a:hover {
     font-size: 200px;
     margin: 0 auto;
     padding-top: 30px;
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+
   }
 
   .secondName {
@@ -279,6 +283,9 @@ a:hover {
     font-size: 200px;
     margin: auto 0;
     padding: 5px;
+    animation-name: moveInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
   }
 
   ul {
@@ -352,6 +359,11 @@ a:hover {
     text-decoration: none;
     transition: 0.5s;
   }
+
+  /* li a:hover{
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+  } */
   p {
     color: #dde4ef;
     font-size: 18px;
@@ -406,4 +418,59 @@ a:hover {
 .hero{
   font-size: 40px;
 }
+}
+
+@keyframes moveInLeft{
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+
+  }
+
+  80% {
+    transform: translateX(10px);
+
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+
+  }
+}
+
+@keyframes moveInRight{
+  0% { 
+    opacity: 0;
+    transform: translateX(100px)
+
+  }
+
+  80% {
+    transform: translateX(-10px)
+
+  }
+
+  100% {
+opacity: 1;
+transform: translate(0);
+  }
+
+}
+
+#card-1{
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+#card-2{
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
+}
+#card-3{
+  animation-name: moveInLeft;
+  animation-duration: 1.5s;
+}
+#card-4{
+  animation-name: moveInRight;
+  animation-duration: 1.5s;
 }
