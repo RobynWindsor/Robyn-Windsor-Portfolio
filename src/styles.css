@@ -359,6 +359,11 @@ a:hover {
     text-decoration: none;
     transition: 0.5s;
   }
+
+  /* li a:hover{
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+  } */
   p {
     color: #dde4ef;
     font-size: 18px;
