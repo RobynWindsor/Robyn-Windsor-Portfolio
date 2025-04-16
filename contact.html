@@ -38,7 +38,7 @@
     <ul class="links">
       <li>
         <a
-          class="contactMeLink"
+        class="contact_page_link"
           href="contact.html"
           title="Contact Robyn Windsor"
           >Contact 
@@ -77,15 +77,44 @@
         fun-filled masterpiece!
         </p>
       </section>
-
-      <video width="640" height="360" controls>
-        <source src="path/to/your/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      
     
     
    <div class="contact">
-   <div class="contactInfo">robynlwindsor@gmail.com</div>
+   <div class="contactInfo">
+    <a href="mailto:robynlwindsor@gmail.com">robynlwindsor@gmail.com</a>
+  </div>
+
+  <div class="contact_number"><a href="tel:07577132131">07577132131</a>
+    
+  </div>
+  <div class="contact_form">
+  <form action="submit_form.php" method="POST">
+    <div class="form_name">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form_email">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form_subject">
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject">
+    </div>
+    
+    <div class="form_message">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    
+    <div>
+      <button class="submit_btn" type="submit">Send Message</button>
+    </div>
+  </form>
+</div>
   </br>
    <span class="contactInfo"><a class="ld" href="https://www.linkedin.com/in/robyn-windsor-5a9666151/" target="blank"><i class="iconLi fa-brands fa-linkedin"></i></a></span>
    <span class="contactInfo"><a class="iG" href="https://www.instagram.com/robyn_codes/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D" target="blank"><i class="iconLi fa-brands fa-instagram"></i></a></span>

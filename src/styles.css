@@ -465,3 +465,19 @@ a:hover {
   animation-name: moveInRight;
   animation-duration: 1.5s;
 }
+
+
+.video{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.form_name, .form_email, .form_subject,.form_message{
+  padding:10px ;
+
+}
+
+
+
