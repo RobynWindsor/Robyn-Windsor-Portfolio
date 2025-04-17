@@ -25,6 +25,16 @@
 
     <link rel="stylesheet" href="src/styles.css" />
     <title>About | Robyn Windsor</title>
+
+    <script>
+      function robyns_function(){
+        alert("Hello");
+        dataLayer.push({
+          'event':'customSubmit', 'robyn_dimension':'testing'
+        })
+      }
+    </script>
+    
   </head>
   <body class="body">
 
@@ -56,6 +66,7 @@
       </li>
     </ul>
 
+    <button class="about_btn" onclick="robyns_function()">Click on me</button>
     <div class="imageContainer">
       <img
         src="src/images/IMG-20230814-WA0011(edit).png"
